@@ -1,2 +1,52 @@
 @charset "utf-8";
 /* CSS Document */
+
+body{
+	background-image:url(../../img/grid.png);
+	background-repeat:repeat-x;
+	background-color:#f2f2f2;
+}
+.featured-unit{
+	height:320px;
+	margin-top:100px;
+	text-align:center;
+}
+.featured-unit h1{
+	font-size:72px;
+	color:#490A3D;
+}
+.featured-unit h2,
+.featured-unit h3{
+	font-weight:normal;
+}
+.featured-unit h2{
+	font-size:16px;
+	margin:8px 0 0 440px;	
+}
+.featured-unit h3{
+	font-size:22px;
+	color:#adc30d;
+}
+.featured-unit p{
+	margin:50px 0 0;
+}
+.content-wrap{
+	background-color:#FFFFFF;
+	-webkit-box-shadow:  0px 0px 12px 1px rgba(00, 00, 00, .13);
+	-moz-box-shadow:  0px 0px 12px 1px rgba(00, 00, 00, .13);
+	box-shadow:  0px 0px 12px 1px rgba(00, 00, 00, .13);
+	border-top:solid 4px #adc30d;
+}
+.padding25{
+	padding:25px;
+}
+
+.head-line h1{
+	font-size:42px;
+	letter-spacing:-1.4pt;
+	color:#adc30d;
+}
+.head-line h1 span{
+	text-align:center;
+	display:block;
+}
