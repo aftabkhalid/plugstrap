@@ -1,2 +1,5 @@
-# Aftab Khalid
-### To create plugin(s) for bootstrap
+Plugstrap - To create plugin(s) for bootstrap!
+
+By
+Aftab Khalid
+UI / UX Designer
