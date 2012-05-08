@@ -14,21 +14,22 @@
   margin-bottom: 18px;
 }
 .navbar-inner {
-  min-height: 40px;
+  min-height: 50px;
   padding-left: 20px;
   padding-right: 20px;
   background-color: #2c2c2c;
-  background-image: -moz-linear-gradient(top, #333333, #222222);
-  background-image: -ms-linear-gradient(top, #333333, #222222);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#333333), to(#222222));
-  background-image: -webkit-linear-gradient(top, #333333, #222222);
-  background-image: -o-linear-gradient(top, #333333, #222222);
-  background-image: linear-gradient(top, #333333, #222222);
+  background-image: -moz-linear-gradient(top, #222, #111);
+  background-image: -ms-linear-gradient(top, #222, #111);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222), to(#111));
+  background-image: -webkit-linear-gradient(top, #222, #111);
+  background-image: -o-linear-gradient(top, #222, #111);
+  background-image: linear-gradient(top, #222, #111);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#222', endColorstr='#111', GradientType=0);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
+  border-bottom:solid 3px #ADC30D;
   -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
   -moz-box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
   box-shadow: 0 1px 3px rgba(0,0,0,.25), inset 0 -1px 0 rgba(0,0,0,.1);
@@ -48,12 +49,16 @@
 .navbar .brand {
   float: left;
   display: block;
-  padding: 8px 20px 12px;
+  padding: 8px 50px 12px 20px;
   margin-left: -20px;
-  font-size: 20px;
-  font-weight: 200;
-  line-height: 1;
-  color: #999999;
+  font-size: 27px;
+  font-family:"Courier New", Courier, monospace;
+  font-weight: 800;
+  line-height: 30px;
+  color: #ADC30D;
+}
+.navbar .brand span {
+  color: #fff;
 }
 .navbar .navbar-text {
   margin-bottom: 0;
@@ -193,11 +198,12 @@
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 9px 10px 11px;
-  line-height: 19px;
+  padding: 9px 20px 11px;
+  line-height: 29px;
   color: #999999;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  margin-right:8px;
 }
 .navbar .btn {
   display: inline-block;
@@ -210,22 +216,37 @@
   padding: 5px 5px 6px;
 }
 .navbar .nav > li > a:hover {
-  background-color: transparent;
   color: #ffffff;
   text-decoration: none;
+  background-color: #444;
+   -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  line-height: 10px;
+  margin-top:9px;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -ms-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;	
 }
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #222222;
+  background-color: #ADC30D;
+   -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  line-height: 10px;
+  margin-top:9px;
 }
 .navbar .divider-vertical {
-  height: 40px;
+  height: 50px;
   width: 1px;
   margin: 0 9px;
   overflow: hidden;
-  background-color: #222222;
+  background-color: #000;
   border-right: 1px solid #333333;
 }
 .navbar .nav.pull-right {
