@@ -175,7 +175,8 @@
   width: 6.382978723%;
   *width: 6.329787233638298%;
 }
-.container {
+.container,
+.content-wrap {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
