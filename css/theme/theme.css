@@ -12,6 +12,7 @@ body{
 }
 .featured-unit h1{
 	font-size:78px;
+	line-height:72px;
 }
 .featured-unit h2,
 .featured-unit h3{
@@ -67,4 +68,27 @@ body{
 	border-top:1px solid #ccc;
 	padding:25px 0;
 	margin-top:25px;
+}
+
+@media (max-width: 767px) {
+	.featured-unit{
+		margin:80px 0 110px;
+	}
+	.featured-unit h1{
+		font-size:65px;
+		line-height:65px;
+	}
+	.featured-unit h2{
+		font-size:16px;
+		margin:8px 0 0 0;
+		text-align:center;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+	.featured-unit h2{
+		font-size:16px;
+		margin:8px 0 0 0;
+		text-align:center;
+	}
 }

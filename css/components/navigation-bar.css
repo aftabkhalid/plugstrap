@@ -198,8 +198,9 @@
 }
 .navbar .nav > li > a {
   float: none;
-  padding: 9px 15px 11px;
-  line-height: 29px;
+  padding: 7px 15px;
+  margin-top:9px;
+  margin-bottom:9px;
   color: #999999;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
@@ -222,8 +223,6 @@
    -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  line-height: 10px;
-  margin-top:9px;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   -ms-transition: background 0.3s ease-in-out;
@@ -238,8 +237,6 @@
    -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  line-height: 10px;
-  margin-top:9px;
 }
 .navbar .divider-vertical {
   height: 50px;
