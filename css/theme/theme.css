@@ -2,13 +2,16 @@
 /* CSS Document */
 
 body{
-	background-image:url(../../img/grid.png);
+	background-image:url(../../img/grid3.png);
 	background-repeat:repeat-x;
 	background-color:#f6f6f6;
 }
 .featured-unit{
-	margin:150px 0 110px;
+	padding:150px 0 110px;
 	text-align:center;
+	background-image:url(../../img/featured-bg2.png);
+	background-repeat:no-repeat;
+	background-position:center 40px;
 }
 .featured-unit h1{
 	font-size:78px;

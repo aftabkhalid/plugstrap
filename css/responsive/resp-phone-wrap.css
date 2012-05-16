@@ -68,7 +68,7 @@
   .dl-horizontal dd {
     margin-left: 0;
   }
-  .container {
+  .container, .container-wrap  {
     width: auto;
   }
   .row-fluid {
@@ -79,10 +79,11 @@
     margin-left: 0;
   }
   [class*="span"],
+  .container-wrap [class*="span"],
   .row-fluid [class*="span"] {
     float: none;
     display: block;
-    width: auto;
+    width: auto!important;
     margin-left: 0;
   }
   .input-large,
