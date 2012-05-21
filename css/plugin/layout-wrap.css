@@ -7,62 +7,66 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-.row {
-  margin-left: -20px;
+.container-wrap .row {
+  margin-left: 0px;
   *zoom: 1;
 }
-.row:before,
-.row:after {
+.container-wrap .row:before,
+.container-wrap .row:after {
   display: table;
   content: "";
 }
-.row:after {
+.container-wrap .row:after {
   clear: both;
 }
-[class*="span"] {
+.container-wrap [class*="span"] {
   float: left;
-  margin-left: 20px;
+  margin-left:0px;
+}
+.container-wrap [class*="span"] .cell-padding{
+	padding:0 20px 20px 20px;
 }
 .container,
+.container-wrap,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
   width: 940px;
 }
-.span12 {
+.container-wrap .span12 {
   width: 940px;
 }
-.span11 {
-  width: 860px;
+.container-wrap .span11 {
+  width: 873px;
 }
-.span10 {
-  width: 780px;
+.container-wrap .span10 {
+  width: 793px;
 }
-.span9 {
-  width: 700px;
+.container-wrap .span9 {
+  width: 713px;
 }
-.span8 {
-  width: 620px;
+.container-wrap .span8 {
+  width: 633px;
 }
-.span7 {
-  width: 540px;
+.container-wrap .span7 {
+  width: 553px;
 }
-.span6 {
-  width: 460px;
+.container-wrap .span6 {
+  width: 473px;
 }
-.span5 {
-  width: 380px;
+.container-wrap .span5 {
+  width: 393px;
 }
-.span4 {
-  width: 300px;
+.container-wrap .span4 {
+  width: 313px;
 }
-.span3 {
-  width: 220px;
+.container-wrap .span3 {
+  width: 233px;
 }
-.span2 {
-  width: 140px;
+.container-wrap .span2 {
+  width: 153px;
 }
-.span1 {
-  width: 60px;
+.container-wrap .span1 {
+  width: 73px;
 }
 .offset12 {
   margin-left: 980px;
@@ -176,7 +180,7 @@
   *width: 6.329787233638298%;
 }
 .container,
-.content-wrap {
+.container-wrap {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
