@@ -1,7 +1,7 @@
 /*!
- * Bootstrap v2.0.3
+ * Plugstrap Wrap ME v1.0.0
  *
- * Copyright 2012 Twitter, Inc
+ * Copyright 2012 7vals.com
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
@@ -26,6 +26,11 @@
 }
 .container-wrap [class*="span"] .cell-padding{
 	padding:0 20px 20px 20px;
+}
+.container-wrap,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
 }
 .container-wrap .span12 {
   width: 940px;

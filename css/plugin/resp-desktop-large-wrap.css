@@ -18,6 +18,12 @@
   .container-wrap [class*="span"] .cell-padding{
 	padding:0 30px 30px 30px;
   }
+  .container,
+  .container-wrap,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 1170px;
+  }
   .container-wrap .span12 {
     width: 1170px;
   }

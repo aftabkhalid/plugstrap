@@ -1,11 +1,13 @@
 @media (max-width: 767px) {
-  .container-wrap  {
-    width: auto;
-  }
   .container-wrap [class*="span"]{
     float: none;
     display: block;
     width: auto!important;
     margin-left: 0;
+  }  
+  .container-wrap,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+  	width: auto;
   }
 }
