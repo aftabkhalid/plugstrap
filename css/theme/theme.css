@@ -1,5 +1,5 @@
 
-body{
+.home-bg{
 	background-image:url(../../img/grid3.png);
 	background-repeat:repeat-x;
 	background-color:#f6f6f6;
@@ -29,6 +29,11 @@ body{
 }
 .featured-unit p{
 	margin:50px 0 0;
+}
+.rest-bg{
+	background-image:url(../../img/grid3.png);
+	background-repeat:repeat-x;
+	background-position:center -230px;
 }
 .content-wrap{
 	background-color:#FFFFFF;
