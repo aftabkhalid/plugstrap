@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-Plugstrap - To create plugin(s) for bootstrap!
-
-By
-Aftab Khalid
-UI / UX Designer
-=======
 [Plugstrap](http://twitter.github.com/plugstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
 =================
 
@@ -56,4 +49,3 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
->>>>>>> origin/develop

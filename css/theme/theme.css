@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
-body{
-=======
 .home-bg{
->>>>>>> origin/develop
 	background-image:url(../../img/grid3.png);
 	background-repeat:repeat-x;
 	background-color:#f6f6f6;
@@ -34,14 +30,11 @@ body{
 .featured-unit p{
 	margin:50px 0 0;
 }
-<<<<<<< HEAD
-=======
 .rest-bg{
 	background-image:url(../../img/grid3.png);
 	background-repeat:repeat-x;
 	background-position:center -230px;
 }
->>>>>>> origin/develop
 .content-wrap{
 	background-color:#FFFFFF;
 	-webkit-box-shadow:  0px 0px 12px 1px rgba(00, 00, 00, .13);
