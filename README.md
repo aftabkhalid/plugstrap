@@ -1,9 +1,9 @@
-[Plugstrap](http://twitter.github.com/plugstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
+[Plugstrap](http://aftabkhalid.github.com/plugstrap)
 =================
 
 Plugstrap provides simple and flexible HTML, CSS, and Javascript PLUGINS for Bootstrap, I am making usefull popular user interface components and interactions. In other words, it's a front-end toolkit for faster, more beautiful web development. It's created and maintained by [Aftab Khalid](http://twitter.com/aftabkhalid).
 
-To get started, checkout http://aftabkhalid.github.com/plugstrap!
+To get started, checkout http://aftabkhalid.github.com/plugstrap
 
 
 
