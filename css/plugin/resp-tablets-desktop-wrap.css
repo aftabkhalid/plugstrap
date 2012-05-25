@@ -18,7 +18,10 @@
   .container-wrap [class*="span"] .cell-padding{
 	padding:0 20px 20px 20px;
   }
+<<<<<<< HEAD
   .container,
+=======
+>>>>>>> origin/develop
   .container-wrap,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
@@ -60,6 +63,7 @@
   .container-wrap .span1 {
     width: 42px;
   }
+<<<<<<< HEAD
   .offset12 {
     margin-left: 764px;
   }
@@ -431,3 +435,6 @@
     width: 32px;
   }
 }
+=======
+}
+>>>>>>> origin/develop

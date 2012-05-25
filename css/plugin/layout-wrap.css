@@ -1,12 +1,22 @@
 /*!
+<<<<<<< HEAD
  * Bootstrap v2.0.3
  *
  * Copyright 2012 Twitter, Inc
+=======
+ * Plugstrap Wrap ME v1.0.0
+ *
+ * Copyright 2012 7vals.com
+>>>>>>> origin/develop
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> origin/develop
 .container-wrap .row {
   margin-left: 0px;
   *zoom: 1;
@@ -26,7 +36,10 @@
 .container-wrap [class*="span"] .cell-padding{
 	padding:0 20px 20px 20px;
 }
+<<<<<<< HEAD
 .container,
+=======
+>>>>>>> origin/develop
 .container-wrap,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
@@ -68,6 +81,7 @@
 .container-wrap .span1 {
   width: 73px;
 }
+<<<<<<< HEAD
 .offset12 {
   margin-left: 980px;
 }
@@ -180,11 +194,14 @@
   *width: 6.329787233638298%;
 }
 .container,
+=======
+>>>>>>> origin/develop
 .container-wrap {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
 }
+<<<<<<< HEAD
 .container:before,
 .container:after {
   display: table;
@@ -224,3 +241,11 @@
 .invisible {
   visibility: hidden;
 }
+=======
+
+.container-wrap:before,
+.container-wrap:after  {
+  display: table;
+  content: "";
+}
+>>>>>>> origin/develop

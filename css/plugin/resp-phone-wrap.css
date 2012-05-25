@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @media (max-width: 480px) {
   .nav-collapse {
@@ -81,10 +82,15 @@
   [class*="span"],
   .container-wrap [class*="span"],
   .row-fluid [class*="span"] {
+=======
+@media (max-width: 767px) {
+  .container-wrap [class*="span"]{
+>>>>>>> origin/develop
     float: none;
     display: block;
     width: auto!important;
     margin-left: 0;
+<<<<<<< HEAD
   }
   .input-large,
   .input-xlarge,
@@ -107,5 +113,12 @@
   .input-append input[class*="span"] {
     display: inline-block;
     width: auto;
+=======
+  }  
+  .container-wrap,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+  	width: auto;
+>>>>>>> origin/develop
   }
 }

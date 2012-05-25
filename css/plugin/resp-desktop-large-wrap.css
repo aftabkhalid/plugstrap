@@ -13,7 +13,11 @@
   }
   .container-wrap [class*="span"] {
     float: left;
+<<<<<<< HEAD
 	margin-left:0px;
+=======
+	margin-left: 0px;
+>>>>>>> origin/develop
   }
   .container-wrap [class*="span"] .cell-padding{
 	padding:0 30px 30px 30px;
@@ -60,6 +64,7 @@
   .container-wrap .span1 {
     width: 90px;
   }
+<<<<<<< HEAD
   .offset12 {
     margin-left: 1230px;
   }
@@ -221,4 +226,6 @@
   .row-fluid .thumbnails {
     margin-left: 0;
   }
+=======
+>>>>>>> origin/develop
 }
