@@ -5,7 +5,7 @@
  * Licensed under the Apache License v2.0
  * http://www.apache.org/licenses/LICENSE-2.0
  *
- * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ * Designed and built by Aftab Khalid
  */
  
 .container-wrap .row {
@@ -26,6 +26,9 @@
 }
 .container-wrap [class*="span"] .cell-padding{
 	padding:0 20px 20px 20px;
+}
+.container-wrap .page-header{
+	margin:0 30px 20px;
 }
 .container-wrap,
 .navbar-fixed-top .container,
